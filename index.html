@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8" />
     <link href="css/laba1.css" rel="stylesheet" type="text/css">
 	<title>Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,10 +14,10 @@
         <div class="logo">SHOPIFY</div>
         <div class="nav">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#shopping">SHOP</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
         <div class="signin"><a href="#">SIGN IN</a></div>
@@ -33,7 +34,7 @@
         </div>
         <div class="online-shop">ONLINE SHOP</div>
         <div class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div>
-        <div class="shop-now"><a href="#">Shop Now</a></div>
+        <div class="shop-now"><a href="#shopping">Shop Now</a></div>
     </div>
 
     <img src="img/boy.png" class="boy">
@@ -54,9 +55,9 @@
 </div>
     
 <div class="container3">
-    <div class="categories row center">PRODUCTS CATEGORIES</div>
+    <a class="categories row center" name="shopping">PRODUCTS CATEGORIES</a>
     <div class="product-row1 row center">
-        <div class="offers row">
+        <div class="offers row" onclick="document.location='offers.html'">
             <div class="offers-text">OFFERS</div>
             <img src="img/shirt_white.png" class="shirt-img">
             <div class="sale2">
@@ -65,19 +66,18 @@
                 <div class="off">OFF</div>
             </div>
         </div>
-        <div class="jeans row">
+        <div class="jeans row" onclick="document.location='jeans.html'">
             <div class="jeans-text">JEANS</div>
             <img src="img/jeans_white.png" class="jeans-img">
         </div>
     </div>
     <div class="product-row2 row center">
-        
-        <div class="acc">
+        <div class="acc" onclick="document.location='acces.html'">
             <img src="img/acc_white.png" class="acc-img">
             <div class="acc-text">ACCESSORIES</div>
         </div>
         
-        <div class="coat row">
+        <div class="coat row" onclick="document.location='coats.html'">
             <div class="coat-text">COATS AND<br>JACKETS</div>
             <img src="img/coat_white.png" class="coat-img">
         </div>
@@ -93,7 +93,7 @@
         <div>E</div>
     </div>
     <div class="arrow-text">
-        <img src="img/arrow.png" class="arrow">
+        <img src="img/arrow.png" class="arrow" onclick="document.location='index.html'">
         <div class="text2">Lorem ipsum</div>
         <div class="text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore .</div>
     </div>
@@ -117,7 +117,7 @@
 
 
 <div class="container7">
-    <div class="subscribe">SUBSCRIBE TO OUR NEWSLETTER</div>
+    <a class="subscribe" name="contact">SUBSCRIBE TO OUR NEWSLETTER</a>
     <div class="row center">
         <div class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .</div>
     </div>
@@ -134,7 +134,7 @@
 <div class="footer row space-between">
     <div class="footer-text">
         <div class="topic">About</div>
-        <div><a href="#">History</a></div>
+        <div><a href="#" name="about">History</a></div>
         <div><a href="#">Our Team</a></div>
         <div><a href="#">Mission Statement</a></div>
         <div><a href="#">Terms &amp; Condition</a></div>
