@@ -99,7 +99,7 @@ body {
 }
 /* */
 
-
+/* SLOT */
 .slot {
     width: 70vw;
     height: 50vh;
@@ -150,6 +150,8 @@ body {
     -webkit-transition: all .1s linear;
     -moz-transition: all .1s linear; 
 }
+/* SLOT */
+
 
 /* FOOTER */
 .footer {
@@ -217,16 +219,6 @@ button:hover {
     font-weight: 700;
 }
 /* */
-
-
-
-
-
-
-
-
-
-
 
 
 .bottom {
